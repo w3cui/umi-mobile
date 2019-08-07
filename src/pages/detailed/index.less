@@ -1,0 +1,271 @@
+@import '../../assets/default.less';
+
+.detailedLayout {
+    background: no-repeat center top;
+    min-height: ~'calc(100vh)';
+    background-size: 100% auto;
+    background-color: #f5f5f5;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+
+    :global {
+        #detailedSwiper {
+            .swiper-wrapper {
+                z-index: 1;
+                display: -webkit-box;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-transition-property: -webkit-transform;
+                -moz-transition-property: -moz-transform;
+                -o-transition-property: -o-transform;
+                -ms-transition-property: -ms-transform;
+                transition-property: transform;
+                -webkit-box-sizing: content-box;
+                -moz-box-sizing: content-box;
+                box-sizing: content-box;
+            }
+
+            .swiper-slide {
+                -webkit-flex-shrink: 0;
+                -ms-flex: 0 0 auto;
+                flex-shrink: 0;
+                text-align: center;
+                width: 100vw;
+                background: center center no-repeat #f5f5f5;
+                -webkit-background-size: 30% auto;
+                -moz-background-size: 30% auto;
+                background-size: 30% auto;
+                min-height: 100vw;
+
+                img {
+                    width: 100vw;
+                }
+            }
+        }
+    }
+
+    .goodsInfo {
+        background: #fff;
+        border-radius: 0 0 .3rem .3rem;
+        margin-bottom: .2rem;
+        padding-bottom: .3rem;
+
+        :global {
+            h3 {
+                padding: .2rem 0;
+                font-size: .32rem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+
+                span {
+                    border: solid 1px @col-money;
+                    color: @col-money;
+                    font-size: .22rem;
+                    padding: .05rem .1rem;
+                    border-radius: .05rem;
+                    float: left;
+                    position: relative;
+                    z-index: 0;
+                    top: .02rem;
+                }
+
+            }
+
+            .info {
+                line-height: .4rem;
+
+                .col-money {
+                    span {
+                        font-size: .4rem;
+                    }
+
+                    i {
+                        font-size: .3rem;
+                        margin-right: .05rem;
+                    }
+
+                }
+
+                .auth {
+                    color: #888;
+
+                    span {
+                        margin-left: .2rem;
+                    }
+
+                    .def {
+                        color: #888;
+                    }
+
+                    .num {
+                        color: #666;
+                    }
+
+                    .iconfont {
+                        top: .05rem;
+                        margin-right: .1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .quanBtn {
+        svg {
+            width: 100%;
+        }
+    }
+
+    .desc {
+        color: #888;
+    }
+
+    .quanBtn {
+        background: @col-money;
+        border-radius: .15rem;
+        color: #fff;
+        overflow: hidden;
+        background: linear-gradient(90deg, rgba(255, 31, 76, 1) 0%, rgba(255, 65, 131, 1) 100%);
+        position: relative;
+        z-index: 0;
+        margin-top: .2rem;
+        margin-bottom: .2rem;
+
+        &::before {
+            content: '';
+            display: block;
+            width: .3rem;
+            height: .3rem;
+            background: rgba(255, 65, 131, 1);
+            position: absolute;
+            top: 50%;
+            right: -.05rem;
+            z-index: 5;
+            border-radius: 100px;
+            margin-top: -.15rem;
+        }
+
+        .text {
+            padding: .3rem 0 .3rem .3rem;
+            height: 0.76rem;
+
+            .quan {
+                font-size: .32rem;
+
+                span {
+                    font-size: .45rem;
+                }
+            }
+
+            .time {
+                font-size: .22rem;
+            }
+        }
+
+        .tab {
+            position: absolute;
+            height: ~'calc(100% - .2rem)';
+            top: .1rem;
+            right: .1rem;
+            width: 30%;
+            background: rgba(255, 255, 255, 1);
+            color: @col-money;
+            line-height: 1.2rem;
+            text-align: center;
+            font-size: .32rem;
+            display: table-cell;
+            vertical-align: middle;
+            border-radius: .1rem;
+
+            &::before {
+                float: left;
+                width: 0;
+                height: 0;
+                position: absolute;
+                right: 100%;
+                top: 0.25rem;
+                margin-right: -.77rem;
+                border-width: 1.2rem 1.4rem 1.5rem .4rem;
+                border-style: solid;
+                border-color: #fff transparent transparent transparent;
+                content: '';
+                z-index: -1;
+                transform: rotate(40deg);
+            }
+        }
+
+    }
+
+    .goodsShop {
+        background: #fff;
+        border-radius: .2rem;
+        margin-bottom: .2rem;
+
+        :global {
+            .info {
+                border-bottom: solid 1px #eee;
+                padding: .2rem 0;
+                position: relative;
+                z-index: 0;
+
+                .new {
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    color: #888;
+                    margin-top: -.14rem;
+                }
+
+                img {
+                    float: left;
+                    width: 1.3rem;
+                    height: 1.3rem;
+                    border-radius: .1rem;
+                }
+
+                .text {
+                    height: 1.3rem;
+                    margin-left: 1.4rem;
+
+                    h3 {
+                        font-size: .38rem;
+                        padding: .1rem 0;
+                    }
+
+                    .icon-tmall {
+                        color: @col-money;
+                    }
+                }
+            }
+
+            .tab {
+                line-height: 1rem;
+
+                &>div {
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
+                }
+            }
+
+            .lv_d,
+            .lv_g,
+            .lv_p {
+                color: #2CA800;
+                margin-left: .1rem;
+
+                &.lv_g {
+                    color: #E31436;
+                }
+
+                &.lv_p {
+                    color: #FF7800;
+                }
+            }
+        }
+    }
+}

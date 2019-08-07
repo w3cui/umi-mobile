@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="32px" viewBox="0 0 30 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>no1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-25.0%" y="-23.2%" width="150.0%" height="146.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.21911798 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="-20.089006%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFDC4B" offset="0%"></stop>
+            <stop stop-color="#FF771F" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0,0 L26,0 L26,20.9600331 C26,22.2031115 25.2333711,23.3174252 24.0724333,23.7617981 L14.0724333,27.5895041 C13.3819064,27.8538175 12.6180936,27.8538175 11.9275667,27.5895041 L1.92756675,23.7617981 C0.766628942,23.3174252 1.52233194e-16,22.2031115 0,20.9600331 L0,0 Z" id="path-3"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="wap切图" transform="translate(-21.000000, -145.000000)">
+            <g id="编组-13" transform="translate(21.000000, 145.000000)">
+                <g id="no1" transform="translate(2.000000, 1.000000)">
+                    <g id="矩形备份-6" filter="url(#filter-1)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Mask" fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="皇冠备份-3" transform="translate(7.000000, 3.000000)" fill="#FFFFFF">
+                        <path d="M1.49434228,4.75487755 C1.55888572,4.75487755 1.62341626,4.75041739 1.68567805,4.73875136 L2.29686196,8.36921965 C2.30694245,8.4692639 2.33122841,8.56389409 2.36674212,8.65219498 C3.36174484,7.89307808 4.60451856,7.44221505 5.95263458,7.44221505 C7.37827491,7.44221505 8.68613346,7.94640665 9.70770379,8.78615451 C9.7827531,8.66226256 9.83801527,8.52196084 9.86879812,8.36921965 L10.4800207,4.73873847 C10.5422825,4.7504045 10.6068259,4.75486466 10.6713436,4.75486466 C11.304506,4.75486466 11.8184816,4.24179141 11.8184816,3.60775239 C11.8184816,2.97505399 11.304506,2.46062722 10.6713436,2.46062722 C10.0381553,2.46062722 9.52423131,2.97506688 9.52423131,3.60776528 C9.52423131,3.75877912 9.55380244,3.90261289 9.60621578,4.03435523 L7.80352423,4.75489044 L6.59546501,2.33874622 C6.97184592,2.15234757 7.22999388,1.76250883 7.22999388,1.31351495 C7.22999388,0.680829449 6.71600539,0.166389788 6.08284293,0.166389788 C5.44968048,0.166389788 4.93574355,0.680829449 4.93574355,1.31351495 C4.93574355,1.76250883 5.19382705,2.15234757 5.57024663,2.33874622 L4.36216163,4.75489044 L2.55904469,4.03435523 C2.61190921,3.90261289 2.64148033,3.75877912 2.64148033,3.60776528 C2.64148033,2.97506688 2.12750474,2.46062722 1.49435517,2.46062722 C0.861179825,2.46062722 0.347242899,2.97506688 0.347242899,3.60776528 C0.347242899,4.2418043 0.861166935,4.75487755 1.49434228,4.75487755 Z" id="路径"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
